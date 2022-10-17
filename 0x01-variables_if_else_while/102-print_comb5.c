@@ -8,9 +8,8 @@ int main(void)
 {
 	int i;
 	int j;
-	
-	
-	for (i = 0; i <= 99; i++ )
+
+	for (i = 0; i <= 99; i++)
 	{
 		for (j = i + 1; j <= 99; j++)
 		{
@@ -26,7 +25,7 @@ int main(void)
 			}
 		}
 	}
-
+	
 	putchar('\n');
 	return (0);
 }
